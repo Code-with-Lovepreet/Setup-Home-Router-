@@ -13,7 +13,7 @@ Your friend, Neelam, heard that you are studying networking. She asked you to co
 ## Part 1: Connect the Devices
 The work area shows the interior of your friend’s house. Scroll the window to get a sense of the layout of the house and the location of the devices. In this part, you will connect all the labeled devices.
 
-Step 1: Connect the coaxial cables.**bold**<br>
+### Step 1: Connect the coaxial cables.<br>
 Neelam’s cable company delivers internet and video services to her home through a coaxial cable. The cable is connected to an outlet in her home. A splitter device separates the internet data service from the video service. This enables the two services to be connected to the appropriate devices. You will connect the internet service to the cable modem, and the video service to the television.<br>
 a.  In Network Components, click Connections (the lightning bolt).<br>
 b.  Locate and click the icon for the Coaxial cable. It is the blue zigzag icon.<br>
@@ -118,7 +118,7 @@ a.  For the Bedroom PC, open IP Configuration and set it to DHCP. Verify that th
 b.  Close the IP Configuration window and open the Web Browser. Verify that the Bedroom PC can now connect to skillsforall.srv, clicking Fast Forward Time until the page loads. This verifies that the Bedroom PC has internet connectivity.
 You have now completed connecting network devices, configuring the router and wireless LAN, and configuring hosts to connect to the network. All devices should be able to connect to the internet. Your job is done 
 
-![alt text](Screenshot (1554.png))
+![alt text](Screenshot(1554).png)
                      
 ## Issues I faced:
 1.	I was using wrong cable for connecting router to the PC and when I was trying to open the PC, it was not allowing me to do. 
