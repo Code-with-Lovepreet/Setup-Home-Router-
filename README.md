@@ -118,7 +118,7 @@ a.  For the Bedroom PC, open IP Configuration and set it to DHCP. Verify that th
 b.  Close the IP Configuration window and open the Web Browser. Verify that the Bedroom PC can now connect to skillsforall.srv, clicking Fast Forward Time until the page loads. This verifies that the Bedroom PC has internet connectivity.
 You have now completed connecting network devices, configuring the router and wireless LAN, and configuring hosts to connect to the network. All devices should be able to connect to the internet. Your job is done 
 
-![alt text](Screenshot(1554).png)
+![alt text](Screenshot (1554).png)
                      
 ## Issues I faced:
 1.	I was using wrong cable for connecting router to the PC and when I was trying to open the PC, it was not allowing me to do. 
