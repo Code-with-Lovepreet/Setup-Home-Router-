@@ -10,7 +10,7 @@ In this Packet Tracer activity, you will complete the following objectives.
 ## Background / Scenario
 Your friend, Neelam, heard that you are studying networking. She asked you to come over and help her connect her new home to the cable TV network. You need to connect the correct cables to the correct devices, connect devices to a home wireless router, and configure the router to provide IP addresses to network clients. Natsumi also wants you to setup a wireless LAN for her home network, so you will configure that as well. You are confident that this will be an easy process and the network will be setup in no time!
 ## Instructions
-### Part 1: Connect the Devices
+## Part 1: Connect the Devices
 The work area shows the interior of your friend’s house. Scroll the window to get a sense of the layout of the house and the location of the devices. In this part, you will connect all the labeled devices.
 
 Step 1: Connect the coaxial cables.**bold**<br>
@@ -26,9 +26,10 @@ e.  Repeat the previous steps to connect Coaxial2 on the Cable Splitter to Port 
 
 f.   Click the TV, and then click ON for Status. If your connections are correct, you should see an image appear that represents a TV program.
 
-## Step 2: Connect the network cables.
+### Step 2: Connect the network cables.
 
 There are two PCs in Neelam’s house. They don’t have wireless LAN adapters, so they will be connected with Ethernet cables. The home wireless router is the center of the network. It enables devices that are configured on the home network to communicate with each other and the internet. The router includes a network switch that accepts wired connections for up to four hosts. You will connect the PCs to these ports.
+
 For the Home Wireless Router to access the internet over the cable TV provider network, the cable modem must be connected to the home wireless router internet port. This is done with a copper straight-through cable.
 
 a.  Click Connections, and then Copper Straight-Through cable. It looks like a solid black line.
@@ -38,10 +39,10 @@ b.  Connect Port 1 on the Cable Modem to the Internet port of the Home Wireless 
 c.  Click the Office PC and connect the cable to the FastEthernet0 port. Locate the Home Wireless Router and click it. Connect the other end of the cable to the GigabitEthernet 1 port to complete the connection.
 
 d.  Repeat the previous steps to connect the Bedroom PC to the GigabitEthernet 2 port on the Home Wireless Router.The wired home network is now fully connected to the internet through the cable TV provider network.
-### Part 2: Configure the Wireless Router
+## Part 2: Configure the Wireless Router
 Most home wireless routers are configured by using a graphical user interface (GUI) that is accessed through your computer's web browser. In this part, you will access the home wireless router through the browser on the Office PC and configure Natsumi’s home network.
 
-## Step 1: Access the home wireless router GUI.
+### Step 1: Access the home wireless router GUI.
 a.  Click Office PC > Desktop tab, and then IP Configuration.
 
 b.  Click DHCP. DHCP will automatically configure the Office PC to be on the same IP network as the Home Wireless Router.
@@ -56,8 +57,9 @@ f.   Newly installed home routers are configured with default credentials. Enter
 
 Note: Default passwords on real-world devices should be changed immediately because it is widely known, including threat actors.
 
-### Step 2: Configure basic settings.
+## Step 2: Configure basic settings.
 In this step, you will configure a new username and password for the wireless router and limit the number of IP addresses that DHCP will issue to host that are connected to the network.
+
 Neelam  only has a few devices to that will connect the network, and she will not have a lot of friends visiting. She thinks that no more than 10 devices would connect to her network at any one time. You decide to lower the number of users to 10. Your friend lives in a densely populated part of town, so it is possible that many people could see her wireless network.
 
 a.  You are currently viewing configuration options under the Setup tab. Locate the Network Setup area. This is where you can configure the router’s DHCP server settings. Locate the Maximum Number of Users field, enter 10. Scroll down to the bottom of the page and click Save Settings. You must save settings on every page of the GUI that you make changes.
@@ -66,7 +68,7 @@ Note: It is possible that you will lose your connection to the router. Click Go 
 
 b.  Click the Administration tab. Here, you can change the default admin password. Enter and confirm MyPassword1! as the new password. Scroll to the bottom of the page and click Save Settings.
 You will be prompted to login again. Enter admin as the User Name and MyPassword1! as the new password, and the click Continue.
-### Step 3: Configure a wireless LAN.
+## Step 3: Configure a wireless LAN.
 
 At this point, you are ready to configure Natsumi's wireless network so that she can connect her wireless devices to the internet over Wi-Fi.
 
@@ -83,10 +85,10 @@ e.  Notice that security is currently disabled on all three wireless networks. Y
 f.   More settings are revealed. WPA2 Personal requires a passphrase that must be entered by anyone who wants to connect to the wireless network. Enter MyPassPhrase1! as the Passphrase. Note that capitalization is important.
 
 g.  Scroll to the bottom of the page and click Save Settings, and then close the Web Browser for the Office PC.
-### Part 3: Configure IP Addressing and Test Connectivity
+## Part 3: Configure IP Addressing and Test Connectivity
 Now that the router is configured, in this part you will configure IP addressing for the PCs and laptop and verify that they can connect to the internet.
 
-## Step 1: Connect the laptop to the wireless network.
+### Step 1: Connect the laptop to the wireless network.
 
 a.  Click the Laptop in the living room, and then the Desktop tab > PC Wireless.
 
@@ -101,7 +103,8 @@ e.  Click the Link Information tab. You should see the message: You have success
 f.   Click the More Information button to see details about the connection. If the IP address does not begin with 192, click the Fast Forward Time several times to speed up the simulation.
 
 g.  Close the PC Wireless app and open the Web Browser. Verify that the Laptop can now connect to skillsforall.srv, clicking Fast Forward Time until the page loads. This verifies that the Laptop has internet connectivity.
-## Step 2: Test connectivity from the Office PC.
+
+### Step 2: Test connectivity from the Office PC.
 You know that the Office PC can connect to the network because you used it to configure the router. However, can it also access the internet? If it can, then you will know that the wired network is properly connected and configured.
 
 a.  Click Office PC > Desktop tab > Web Browser.
@@ -109,11 +112,13 @@ a.  Click Office PC > Desktop tab > Web Browser.
 b.  Enter skillsforall.srv and click Go. After a brief delay, you should see the webpage appear. If necessary, click Fast Forward Time several times to speed up the convergence.
 Loading an external website verifies that internet connectivity for the Office PC.
 
-## Step 3: Configure the bedroom PC.
+### Step 3: Configure the bedroom PC.
 a.  For the Bedroom PC, open IP Configuration and set it to DHCP. Verify that the Bedroom PC received an IP address that begins with 192.
 
 b.  Close the IP Configuration window and open the Web Browser. Verify that the Bedroom PC can now connect to skillsforall.srv, clicking Fast Forward Time until the page loads. This verifies that the Bedroom PC has internet connectivity.
 You have now completed connecting network devices, configuring the router and wireless LAN, and configuring hosts to connect to the network. All devices should be able to connect to the internet. Your job is done 
+
+![alt text](Screenshot (1554.png))
                      
 ## Issues I faced:
 1.	I was using wrong cable for connecting router to the PC and when I was trying to open the PC, it was not allowing me to do. 
