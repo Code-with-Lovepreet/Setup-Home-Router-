@@ -1,18 +1,21 @@
 # Setup-Home-Router
  Configure a Wireless Router and Client In this Packet Tracer activity
 In this Packet Tracer activity, you will complete the following objectives.
+
 •	Part 1: Connect the Devices
+
 •	Part 2: Configure the Wireless Router
+
 •	Part 3: Configure IP Addressing and Test Connectivity
 ## Background / Scenario
 Your friend, Neelam, heard that you are studying networking. She asked you to come over and help her connect her new home to the cable TV network. You need to connect the correct cables to the correct devices, connect devices to a home wireless router, and configure the router to provide IP addresses to network clients. Natsumi also wants you to setup a wireless LAN for her home network, so you will configure that as well. You are confident that this will be an easy process and the network will be setup in no time!
 ## Instructions
 ### Part 1: Connect the Devices
 The work area shows the interior of your friend’s house. Scroll the window to get a sense of the layout of the house and the location of the devices. In this part, you will connect all the labeled devices.
-Step 1: Connect the coaxial cables.
-Neelam’s cable company delivers internet and video services to her home through a coaxial cable. The cable is connected to an outlet in her home. A splitter device separates the internet data service from the video service. This enables the two services to be connected to the appropriate devices. You will connect the internet service to the cable modem, and the video service to the television.
-a.  In Network Components, click Connections (the lightning bolt).
-b.  Locate and click the icon for the Coaxial cable. It is the blue zigzag icon.
+Step 1: Connect the coaxial cables.<br>
+Neelam’s cable company delivers internet and video services to her home through a coaxial cable. The cable is connected to an outlet in her home. A splitter device separates the internet data service from the video service. This enables the two services to be connected to the appropriate devices. You will connect the internet service to the cable modem, and the video service to the television.<br>
+a.  In Network Components, click Connections (the lightning bolt).<br>
+b.  Locate and click the icon for the Coaxial cable. It is the blue zigzag icon.<br>
 c.  Click the Cable Splitter and select the Coaxial1 port.
 d.  Click the Cable Modem and select Port 0.
 e.  Repeat the previous steps to connect Coaxial2 on the Cable Splitter to Port 0 on the TV.
